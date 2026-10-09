@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+body {
+  background-image: url(bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mainfrom {
+  width: 500px;
+  min-height: 700px;
+  background-color: #fbfcfd;
+  border-radius: 10px;
+  margin: 100px auto;
+  padding: 40px;
+  overflow: hidden;
+}
+
+.mainfrom h1 {
+  text-align: center;
+  color: #45649b;
+  font-weight: 900;
+  font-size: 3em;
+}
+
+.mainfrom h1 > span {
+  background: #2a7b9b;
+  background: linear-gradient(
+    90deg,
+    rgba(42, 123, 155, 1) 0%,
+    rgba(33, 204, 104, 1) 70%,
+    rgba(237, 221, 83, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+input,
+select {
+  display: block;
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 10px 5px;
+  background: transparent;
+  font-size: 16px;
+}
+
+label {
+  display: block;
+  width: 420px;
+  border-bottom: 2px solid #a8dcd5;
+  margin: 25px 5px;
+  color: #5a5b5e;
+  font-weight: 700;
+}
+
+#terms {
+  display: inline-block;
+  width: auto;
+  margin-right: 8px;
+}
+
+#terms-label {
+  display: block;
+  width: 100%;
+  border: none;
+  margin: 20px 5px;
+  font-size: 14px;
+}
+
+#terms-label span {
+    color: #22E7C7;
+}
+
+button{
+    width: 100%;
+    padding: 10px 5px;
+    background: #020024;
+background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    border-radius: 5px;
+    border: none;
+    letter-spacing: 2px;
+}
+
